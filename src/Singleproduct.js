@@ -53,7 +53,7 @@ const Singleproduct = () => {
             <div className="product-data grid gap-3 py-36 px-0">
               <h2 className="text-4xl">{name}</h2>
               <Star stars={stars} reviews={reviews} />
-              <p className="product-data-price text-xl text-blue-500">
+              <p className="product-data-price text-lg text-blue-500">
                 MRP:
                 {
                   <del>
@@ -61,38 +61,38 @@ const Singleproduct = () => {
                   </del>
                 }
               </p>
-              <p className="product-data-realprice text-xl font-medium	">
+              <p className="product-data-realprice text-lg font-medium	">
                 Deal of the Day:
                 <FormatPrice price={price} />
               </p>
-              <p className="text-lg">{description}</p>
+              <p className="text-base mt-4">{description}</p>
 
-              <div className="container flex text-lg justify-between ">
+              <div className="container flex text-base justify-between mt-4">
                 <div className="flex items-center mb-4">
                   <div className="flex flex-col items-center">
                     <TbTruckDelivery className="icon stroke-4 text-2xl h-8 w-8" />
-                    <p>Free Delivery</p>
+                    <p className="text-sm">Free Delivery</p>
                   </div>
                 </div>
 
                 <div className="product data warrant">
                   <div className="product flex flex-col items-center">
                     <TbReplaceOff className="icon text-2xl h-8 w-8" />
-                    <p>30 Day Replacement</p>
+                    <p className="text-sm">30 Day Replacement</p>
                   </div>
                 </div>
 
                 <div className="product data warrant">
                   <div className="product flex flex-col items-center">
                     <TbTruckDelivery className="icon text-2xl h-8 w-8" />
-                    <p>DigitalEra Delivery</p>
+                    <p className="text-sm">DigitalEra Delivery</p>
                   </div>
                 </div>
 
                 <div className="product data warrant">
                   <div className="product flex flex-col items-center">
                     <MdOutlineSecurity className="icon text-2xl h-8 w-8" />
-                    <p>2 Year Warranty</p>
+                    <p className="text-sm">2 Year Warranty</p>
                   </div>
                 </div>
               </div>

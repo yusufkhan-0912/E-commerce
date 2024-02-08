@@ -10,11 +10,11 @@ let Sort = () => {
   return (
     <>
       <div className="wrapper my-10 grid grid-cols-3">
-        <div className="container flex gap-4">
+        <div className="container flex gap-2">
           <div>
             <NavLink>
               <button
-                className="text-3xl p-2 bg-slate-200"
+                className="text-2xl p-2 bg-slate-200"
                 onClick={setGridView}
               >
                 <IoGrid />
@@ -24,7 +24,7 @@ let Sort = () => {
           <div>
             <NavLink>
               <button
-                className="text-3xl  p-2 bg-slate-200"
+                className="text-2xl  p-2 bg-slate-200"
                 onClick={setListView}
               >
                 <FaList />
@@ -33,7 +33,7 @@ let Sort = () => {
           </div>
         </div>
         <div>
-          <p className="text-xl p-2">
+          <p className="text-lg p-2">
             {`filter_products`.length} Products Available
           </p>
         </div>
@@ -44,7 +44,7 @@ let Sort = () => {
               <select
                 name="sort"
                 id="sort"
-                className="text-xl p-2 border-4 border-black rounded-sm"
+                className="text-lg p-2 border-2 border-black rounded-sm ml-12"
                 onClick={sorting}
               >
                 <option value="lowest">Price(lowest)</option>

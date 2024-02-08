@@ -4,7 +4,7 @@ import Nav from "./Nav";
 
 const Header = () => {
   return (
-    <div className="flex justify-between bg-slate-300 p-12">
+    <div className="flex justify-between bg-slate-300 p-8">
       <NavLink to="./">
         <img class="w-44" src="/logo.png" alt="logo" />
       </NavLink>

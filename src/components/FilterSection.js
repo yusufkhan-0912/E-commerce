@@ -51,7 +51,7 @@ let FilterSection = () => {
         </div>
 
         <div className="filterSection">
-          <h3 className="text-start mt-12 text-2xl font-medium mb-8">
+          <h3 className="text-start mt-16 text-2xl font-medium mb-12">
             category
           </h3>
           <div className="grid gap-8">
@@ -75,7 +75,7 @@ let FilterSection = () => {
 
             <form action="#">
               <select
-                className="text-xl  border-4 border-black rounded-sm"
+                className="text-xl  border-2 border-black rounded-sm"
                 name="company"
                 id="company"
                 onClick={updateFilterValue}
@@ -95,7 +95,7 @@ let FilterSection = () => {
             <h3 className="text-start mt-12 text-2xl font-medium mb-8">
               Colors
             </h3>
-            <div className="colorstyle flex text-xl font-medium	">
+            <div className="colorstyle flex text-sm font-medium	">
               {colorsData.map((curColor, index) => {
                 if (curColor === "all") {
                   return (
@@ -104,10 +104,10 @@ let FilterSection = () => {
                       value={curColor}
                       name="color"
                       type="button"
-                      className="h-7 w-7 rounded-full ml-2"
+                      className="h-6 w-6 rounded-full"
                       onClick={updateFilterValue}
                     >
-                      <div className="border border-black rounded-full h-8 w-8 text-center text-slate-600">
+                      <div className="border border-black rounded-full h-6 w-6 text-center text-slate-600">
                         <span>All</span>
                       </div>
                     </button>
@@ -120,7 +120,7 @@ let FilterSection = () => {
                     name="color"
                     type="button"
                     style={{ background: curColor }}
-                    className="h-8 w-8 rounded-full ml-3"
+                    className="h-6 w-6 rounded-full ml-3"
                     onClick={updateFilterValue}
                   >
                     {color === curColor ? "" : null}

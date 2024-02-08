@@ -8,7 +8,7 @@ let FeatureProduct = () => {
   }
   return (
     <>
-      <div className="py-36 px-0 bg-slate-300 flex justify-center">
+      <div className="py-16 px-0 bg-slate-300 flex justify-center">
         <div className="max-w-7xl">
           <div className="intro">Check Now!</div>
           <div className="text-3xl font-semibold mb-8">

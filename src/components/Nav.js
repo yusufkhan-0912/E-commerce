@@ -37,7 +37,7 @@ const Nav = () => {
           <li>
             <NavLink className={"hover:text-slate-500"} to="./cart">
               <FiShoppingCart className="relative text-3xl" />
-              <span className="absolute top-12 right-10 bg-blue-500 p-0.5 rounded-full text-sm">
+              <span className="absolute top-8 right-7 bg-blue-500 p-0.5 rounded-full text-sm">
                 10
               </span>
             </NavLink>

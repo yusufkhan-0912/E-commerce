@@ -24,7 +24,7 @@ let AddToCart = ({ product }) => {
           {colors.map((curColor, index) => {
             return (
               <button
-                className="rounded-full h-8 w-8"
+                className="rounded-full h-6 w-6"
                 key={index}
                 style={{ backgroundColor: curColor }}
               >
@@ -43,7 +43,7 @@ let AddToCart = ({ product }) => {
         setIncrease={setIncrease}
       />
       <NavLink to="/cart">
-        <button className="bg-blue-700 text-white rounded-lg py-4 px-8">
+        <button className="bg-blue-700 text-white rounded-lg py-3 px-6">
           Add To Cart
         </button>
       </NavLink>

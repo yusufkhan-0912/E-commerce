@@ -4,7 +4,7 @@ import { FaMinus, FaPlus } from "react-icons/fa";
 let CartAmountToggle = ({ amount, setDecrease, setIncrease }) => {
   return (
     <div className="btn">
-      <div className="toggle flex gap-6 mb-6 mt-6 text-2xl">
+      <div className="toggle flex gap-6 mb-6 mt-6 text-xl">
         <button
           onClick={() => {
             setDecrease();

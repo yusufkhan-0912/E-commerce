@@ -11,9 +11,9 @@ let Product = (curElm) => {
           <img
             src={image}
             alt={name}
-            className="hover:scale-95 ease-in duration-300"
+            className="hover:scale-95 ease-out duration-300"
           />
-          <figcaption className="absolute top-8 right-10 bg-slate-50 py-1 px-4 text-slate-500 rounded-xl text-xl">
+          <figcaption className="absolute top-6 right-6 bg-slate-50 py-1 px-2 text-slate-500 rounded-xl text-lg">
             {category}
           </figcaption>
         </figure>
